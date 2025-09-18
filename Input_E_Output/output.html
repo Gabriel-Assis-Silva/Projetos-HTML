@@ -12,9 +12,9 @@
     <p id="output"></p>
 
     <script>
-        const params = new URLSearchParams(window.location.search);
-        const funValue = params.get("Texto");
-        document.getElementById("output").textContent = `You entered: ${funValue}`;
+        const Parametros = new URLSearchParams(window.location.search);
+        const Valor = Parametros.get("Texto");
+        document.getElementById("output").textContent = `Você enviou: ${Valor}`;
     </script>
 </body>
 
