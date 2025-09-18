@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Output</title>
+</head>
+
+<body>
+    <h3>Data Recebido</h1>
+    <p id="output"></p>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const funValue = params.get("Texto");
+        document.getElementById("output").textContent = `You entered: ${funValue}`;
+    </script>
+</body>
+
+</html>
