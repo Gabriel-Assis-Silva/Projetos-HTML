@@ -1,0 +1,44 @@
+body {
+    background-color: grey;
+}
+.nav {
+    background-color: rgb(180, 180, 180);
+}
+
+/* Botão */
+.btn {
+    border: 2px solid black;
+}
+.btn:hover {
+    background-color: aqua;
+    transition: background-color 0.2s;
+}
+.btn:active {
+    background-color: #ffffff;
+    transform: scale(0.95);
+}
+/* Features */
+.features {
+    font-size: 20px;
+}
+.features li:first-child {
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.features li:last-child {
+    font-size: 18px;
+    text-decoration: underline;
+}
+/* Input */
+input:focus {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black ;
+    
+}
+
+/* Link no referrer */
+a[rel="noreferrer"] {
+    color: black;
+    text-decoration: none;
+}
